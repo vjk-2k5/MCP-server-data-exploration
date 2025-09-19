@@ -74,6 +74,6 @@ Happy analyzing! 🎉
 
 
 Developed by
-VIjay Krishna S 
-Udhay Kumar
+VIjay Krishna S ,
+Udhay Kumar ,
 Roheit SK
