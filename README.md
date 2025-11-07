@@ -72,8 +72,3 @@ data-analysis-chatbot/
 
 Happy analyzing! 🎉
 
-
-Developed by
-VIjay Krishna S ,
-Udhay Kumar ,
-Roheit SK
