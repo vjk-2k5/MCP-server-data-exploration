@@ -16,10 +16,12 @@ from mcp.types import (
     PromptMessage,
 )
 from mcp.server import NotificationOptions, Server
-from mcp.shared.exceptions import McpError
-from pydantic import AnyUrl
+try:
+    from mcp.shared.exceptions import McpError
+except ImportError:
+    from mcp.shared.exceptions import MCPError as McpError  # Support mcp >= 2.0
+from pydantic import AnyUrl, BaseModel
 import mcp.server.stdio
-from pydantic import BaseModel
 
 ## import common data analysis libraries
 import pandas as pd
